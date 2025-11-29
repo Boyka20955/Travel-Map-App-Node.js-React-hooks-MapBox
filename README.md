@@ -59,21 +59,6 @@ Before running this application, make sure you have the following installed:
 
 ## Environment Variables
 
-### Backend (.env file in backend directory)
-Create a `.env` file in the `backend` directory with the following variables:
-
-```env
-MONGO_URL=mongodb://localhost:27017/travelapp
-# or your MongoDB Atlas connection string
-```
-
-### Frontend (.env file in frontend directory)
-Create a `.env` file in the `frontend` directory with the following variables:
-
-```env
-REACT_APP_MAPBOX=your_mapbox_access_token_here
-```
-
 ## Running the Application
 
 1. **Start the backend server:**
@@ -148,9 +133,6 @@ Travel-App-MapBox/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the ISC License.
 
 ## Acknowledgments
 
